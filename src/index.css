@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+.nav {
+  background-color: #f55a5a;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.nav-img {
+  width: 2em;
+  margin-right: 7px;
+}
