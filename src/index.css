@@ -7,7 +7,9 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-h1 {
+h1,
+h2,
+p {
   margin: 0;
 }
 
@@ -23,4 +25,85 @@ h1 {
 .nav-img {
   width: 2em;
   margin-right: 7px;
+}
+
+main.container {
+  width: 50%;
+  margin: 3em auto;
+}
+
+/* Trip card */
+.trip-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 0;
+  border-bottom: 2px solid #f5f5f5;
+}
+
+.trip-card:nth-child(3) {
+  border: 0;
+}
+
+/* Trip image */
+.trip-img {
+  width: 30%;
+}
+
+.trip-details {
+  width: 65%;
+  padding: 2em 0;
+}
+
+.trip-img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Trip details */
+.card-location,
+.card-duration {
+  margin-bottom: 10px;
+}
+
+.card-location,
+.card-duration,
+.card-description {
+  font-size: 0.65rem;
+}
+
+.card-location {
+  display: flex;
+  align-items: center;
+}
+
+.pin-icon {
+  width: 10px;
+  margin-right: 4px;
+}
+
+.location {
+  color: #2b283a;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  margin-right: 12px;
+}
+
+.map-link {
+  color: #918e9b;
+}
+
+.card-title,
+.card-duration {
+  font-weight: 700;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+}
+
+.card-description {
+  line-height: 150%;
 }
